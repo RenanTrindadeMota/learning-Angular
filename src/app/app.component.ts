@@ -11,10 +11,11 @@ import { Teste8Component } from "./teste8/teste8.component";
 import { Teste9Component } from "./teste9/teste9.component";
 import { Teste10Component } from "./teste10/teste10.component";
 import { Projeto1Component } from "./projeto1/projeto1.component";
+import { Teste11Component } from "./teste11/teste11.component";
 
 @Component({
   selector: 'app-root',
-  imports: [Projeto1Component],
+  imports: [Teste11Component],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
