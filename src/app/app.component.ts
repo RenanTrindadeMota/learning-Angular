@@ -12,10 +12,12 @@ import { Teste9Component } from "./teste9/teste9.component";
 import { Teste10Component } from "./teste10/teste10.component";
 import { Projeto1Component } from "./projeto1/projeto1.component";
 import { Teste11Component } from "./teste11/teste11.component";
+import { Teste12Component } from "./teste12/teste12.component";
 
 @Component({
   selector: 'app-root',
-  imports: [Teste11Component],
+  standalone: true,
+  imports: [Teste12Component],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
