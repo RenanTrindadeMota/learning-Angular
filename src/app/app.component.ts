@@ -21,7 +21,7 @@ import { Teste16Component } from "./teste16/teste16.component";
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [Teste14Component, Teste15Component, Teste16Component],
+  imports: [Projeto1Component],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
