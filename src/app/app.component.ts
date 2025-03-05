@@ -13,11 +13,15 @@ import { Teste10Component } from "./teste10/teste10.component";
 import { Projeto1Component } from "./projeto1/projeto1.component";
 import { Teste11Component } from "./teste11/teste11.component";
 import { Teste12Component } from "./teste12/teste12.component";
+import { Teste13Component } from "./teste13/teste13.component";
+import { Teste14Component } from "./teste14/teste14.component";
+import { Teste15Component } from "./teste15/teste15.component";
+import { Teste16Component } from "./teste16/teste16.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [Teste12Component],
+  imports: [Teste14Component, Teste15Component, Teste16Component],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
